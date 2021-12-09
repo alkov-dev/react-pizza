@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './CartHeader.module.css'
 import img from './img/pizza-label.png'
-import { Link } from 'react-router-dom'
 
 const CartHeader = () => {
     return (
