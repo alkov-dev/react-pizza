@@ -1,0 +1,154 @@
+@keyframes show { from {opacity: 0;} to {opacity: 1;}}
+.animation{
+    animation: show 1s;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+
+}
+
+.pizza_item{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    transition: .4s;
+    border: 2px solid transparent;
+}
+.pizza_item:hover{
+    border: 2px solid #FE5F1E;
+}
+
+
+.pizza_img{
+    text-align: center;
+    width: 100%;
+}
+.pizza_name{
+    min-width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    margin-bottom: 15px;
+}
+.pizza_costs{
+    text-align: center;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px;
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    color: #4CAF50;
+    margin-bottom: 25px;
+}
+
+.button__container{
+    margin: 0 auto;
+    text-align: center;
+    width: 240px;
+}
+.button1{
+    font-size: 12px;
+    border-radius: 2px;
+    width: 150px;
+    height: 18px;
+    border: none;
+    background-color: rgb(182, 238, 182);
+    margin: 3px;
+    cursor: pointer;
+    transition: .4s;
+}
+.button1:hover{
+    background-color: rgb(52, 179, 52);
+}
+.active{
+    background-color: rgb(52, 179, 52);
+}
+.disabled{
+    opacity: .5;
+    pointer-events: none;
+}
+.button2{
+    font-size: 12px;
+    border-radius: 2px;
+    width: 50px;
+    height: 25px;
+    border: none;
+    background-color: #fabaa0;
+    margin: 3px;
+    cursor: pointer;
+    transition: .3s;
+    text-align: center;
+}
+.button2:hover{
+    background-color: #FE5F1E;
+    width: 52px;
+
+}
+
+.active2{
+    background-color: #FE5F1E;
+}
+
+
+
+
+.block4{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    width: 170px;
+
+}
+
+
+.button_add{
+    border: 2px solid #4CAF50;
+    align-items: center;
+    border-radius: 30px;
+    background-color: white; /* Green */
+    color: #4CAF50;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+}
+.button_add:hover{
+    border: 2px solid #4CAF50;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    transition: .3s;
+
+}
+.addedCount{
+    font-size: 14px;
+    width: 20px;
+    height: 20px;
+    border: 1ps solid transparent;
+    border-radius: 50%;
+    background-color: #FE5F1E;
+    color: white;
+    margin-left: 10px;
+}
+

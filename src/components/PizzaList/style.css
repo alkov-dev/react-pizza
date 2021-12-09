@@ -1,0 +1,15 @@
+.pizzaList_animation-enter {
+    opacity: 0;
+    transition: opacity 200ms;
+  }
+  .pizzaList_animation-enter-active {
+    opacity: 1;
+    transition: opacity 400ms;
+  }
+  .pizzaList_animation-exit {
+    opacity: 1;
+  }
+  .pizzaList_animation-exit-active {
+    opacity: 0;
+    transition: opacity 400ms;
+  }

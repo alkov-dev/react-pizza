@@ -1,0 +1,51 @@
+{
+  "name": "my-app",
+  "proxy": "http://localhost:3001",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.15.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.24.0",
+    "classnames": "^2.3.1",
+    "react": "^17.0.2",
+    "react-content-loader": "^6.0.3",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.0.2",
+    "react-scripts": "4.0.3",
+    "react-spring": "^9.3.2",
+    "react-transition-group": "^4.4.2",
+    "reactjs-popup": "^2.0.5",
+    "redux": "^4.1.2",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.1",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start npm run test-server",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "test-server": "npx json-server --watch public/db.json --port 3001"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
